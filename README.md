@@ -5,9 +5,9 @@
 ```yaml
 substitutions:
   # main prefix for all entities
-  name: "Water Heater"
+  name: "Boiler"
   # name of your node
-  node_name: "water-heater"
+  node_name: "zanussi-artendo-pro"
   # use "esp12e" for iot-uni-dongle, "esp8285" for coolrf-heatstick, or your own if you know it
   board: "esp12e"
   # time platform: "sntp" or "homeassistant"
@@ -27,7 +27,7 @@ packages:
   ewh: github://creasoftua/esphome-ewh/ewh-pkg-ewh.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable additional diagnostic clock sensor
-  # clock: github://creasoftua/esphome-ewh/ewh-pkg-clock.yaml@$ewh_version
+  clock: github://creasoftua/esphome-ewh/ewh-pkg-clock.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable additional diagnostic timer sensor
   # timer: github://creasoftua/esphome-ewh/ewh-pkg-timer.yaml@$ewh_version
