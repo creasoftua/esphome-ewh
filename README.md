@@ -24,20 +24,20 @@ substitutions:
 # please do not change packeages order it is very important, just comment/uncomment
 packages:
   # required package, do not comment
-  ewh: github://dentra/esphome-ewh/ewh-pkg-ewh.yaml@$ewh_version
+  ewh: github://creasoftua/esphome-ewh/ewh-pkg-ewh.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable additional diagnostic clock sensor
-  # clock: github://dentra/esphome-ewh/ewh-pkg-clock.yaml@$ewh_version
+  # clock: github://creasoftua/esphome-ewh/ewh-pkg-clock.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable additional diagnostic timer sensor
-  # timer: github://dentra/esphome-ewh/ewh-pkg-timer.yaml@$ewh_version
+  # timer: github://creasoftua/esphome-ewh/ewh-pkg-timer.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable standalone web ui
-  # web: github://dentra/esphome-ewh/ewh-pkg-web.yaml@$ewh_version
+  # web: github://creasoftua/esphome-ewh/ewh-pkg-web.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable experimental cloud support
-  # cloud: github://dentra/esphome-ewh/ewh-pkg-cloud.yaml@$ewh_version
+  # cloud: github://creasoftua/esphome-ewh/ewh-pkg-cloud.yaml@$ewh_version
 
   # required package, do not comment
-  core: github://dentra/esphome-ewh/ewh-pkg-core.yaml@$ewh_version
+  core: github://creasoftua/esphome-ewh/ewh-pkg-core.yaml@$ewh_version
 ```
