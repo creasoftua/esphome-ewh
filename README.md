@@ -13,11 +13,11 @@ substitutions:
   # time platform: "sntp" or "homeassistant"
   time_platform: "sntp"
   # SSID of your wifi
-  wifi_ssid: !secret wifi_ssid
+  wifi_ssid: "natali"
   # password of your wifi
-  wifi_password: !secret wifi_password
+  wifi_password: ""
   # password for fallback wifi hotspot
-  wifi_ap_password: !secret wifi_ap_password
+  wifi_ap_password: ""
   # version of ewh
   ewh_version: "2022.1.2"
 
