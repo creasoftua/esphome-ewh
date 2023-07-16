@@ -33,7 +33,7 @@ packages:
   # timer: github://creasoftua/esphome-ewh/ewh-pkg-timer.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable standalone web ui
-  # web: github://creasoftua/esphome-ewh/ewh-pkg-web.yaml@$ewh_version
+  web: github://creasoftua/esphome-ewh/ewh-pkg-web.yaml@$ewh_version
 
   ## optional package, uncomment next line to enable experimental cloud support
   # cloud: github://creasoftua/esphome-ewh/ewh-pkg-cloud.yaml@$ewh_version
