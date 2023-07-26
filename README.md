@@ -35,9 +35,6 @@ packages:
   ## optional package, uncomment next line to enable standalone web ui
   web: github://creasoftua/esphome-ewh/ewh-pkg-web.yaml@$ewh_version
 
-  ## optional package, uncomment next line to enable experimental cloud support
-  # cloud: github://creasoftua/esphome-ewh/ewh-pkg-cloud.yaml@$ewh_version
-
   # required package, do not comment
   core: github://creasoftua/esphome-ewh/ewh-pkg-core.yaml@$ewh_version
 ```
