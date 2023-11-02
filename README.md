@@ -13,7 +13,7 @@ substitutions:
   # time platform: "sntp" or "homeassistant"
   time_platform: "sntp"
   # SSID of your wifi
-  wifi_ssid: "natali"
+  wifi_ssid: ""
   # password of your wifi
   wifi_password: ""
   # password for fallback wifi hotspot
