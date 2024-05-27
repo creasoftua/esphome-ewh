@@ -30,6 +30,7 @@ wifi:
 
 captive_portal:
 ota:
+  version: 1
 api:
 
 time:
